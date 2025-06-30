@@ -15,4 +15,3 @@ def top_ten(subreddit):
     for post in posts:
         print(post['data']['title'])
     return "OK"
-
